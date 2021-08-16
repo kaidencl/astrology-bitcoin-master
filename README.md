@@ -45,7 +45,7 @@ The last step is to multiply each aspect by the scores. For example, d_tjupiter_
 ### Modeling
 ---
 VAR models are used for multivariate time series. The structure is that each variable is a linear function of past lags of itself and past lags of the other variables. All we have to do is update the data every day and get a forecast for the next day or two. <br/>
-I made a first-order difference of the features before we use them. <br/>
+I made a first-order difference of the features before using them. <br/>
 Next step is to run lag_order = mod.select_order(). I got lag_order = 1 so I just needed to predict the next day.
 I ran the Granger causality Wald-test to check the relationship between each feature and the closing price. This step filters out most of the features. (from 1022 to 34) Many of the d columns I constructed before proved useful, and some of the epochal aspects do have an impact on prices. <br/>
 
