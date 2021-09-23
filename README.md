@@ -34,7 +34,7 @@ A few points of contention: <br/>
 3. In the same way, a direct plant doesn’t require a +4 in its accidental dignity.
 4. I didn’t count the scores the houses bring to the planets. This is because: 1) the time of each day is the same, so rising signs are the same; 2) the same price corresponds to different time zones and locations in the world, how do you explain that Mercury in one location is in the first house and Mercury in another location is in the twelfth house? Perhaps there is a better explanation for this. I look forward to a better answer.
 5. I didn’t calculate the speed of the planet, oriental/occidental, because the library I’m using doesn’t have that information.
-6. Beseiged between Saturn and Mars. I wanted to do this in code, but I failed. I think it should be important. 
+6. Besieged between Saturn and Mars. I wanted to do this in code, but I failed. I think it should be important. 
 <a/>
 Other than that, I didn’t calculate the Part of Fortune because I think it has more to do with the hour than the date. <br/>
 After all this was done, I added the two columns together to get: d_planet = e_planet + a_planet. <br/>
